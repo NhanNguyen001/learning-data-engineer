@@ -1,0 +1,39 @@
+[
+    {
+        "tbl_Airport": [
+            {
+                "name": "lng_Country_Id_Nmbr",
+                "type": "int",
+                "constraint": "PRIMARY KEY NOT NULL"
+            },
+            {
+                "name": "str_Country_Ident",
+                "type": "varchar(7)"
+            },
+            {
+                "name": "str_Country_Desc",
+                "type": "varchar(50)"
+            },
+            {
+                "name": "dtm_Creation_Date",
+                "type": "TIMESTAMP"
+            },
+            {
+                "name": "lng_Creation_User_Id_Nmbr",
+                "type": "int"
+            },
+            {
+                "name": "dtm_Last_Mod_Date",
+                "type": "TIMESTAMP"
+            },
+            {
+                "name": "lng_Last_Mod_User_Id_Nmbr",
+                "type": "int"
+            },
+            {
+                "name": "tsp_TimeStamp",
+                "type": "varchar(100)"
+            }
+        ]
+    }
+]
